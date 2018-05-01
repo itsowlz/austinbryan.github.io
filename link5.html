@@ -6,7 +6,7 @@
 <style>
 body, html {
     height: 100%;
-    width: 3840px;
+    width: 1920px;
     margin: 0;
 }
 
@@ -22,19 +22,34 @@ body, html {
     background-repeat: repeat;
     background-size: fill;
 }
-#overlay_image{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background: red;
+.img{
+  position: absolute;
+  top:25px;
+  left:325px;
+}
+.img1{
+  position: absolute;
+  left:1675px;
+}
+.img2{
+  position: absolute;
+  left:910px;
+  bottom:1px;
 }
     </style>
 </head>
 <body>
-<div class="bg"><div id="container">
-    <div id="overlay_image">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLCQCtoOJpI_A5oktQImEdDBJ50BqHXujj" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="bg">
+      <div>
+        <div class="img">
+      <iframe width="1280" height="720" src="https://www.youtube.com/embed/videoseries?list=PLCQCtoOJpI_A5oktQImEdDBJ50BqHXujj" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
+    <div class="img1">
+      <img src="gifs/MTV.gif" style="width:200px">
+    </div>
+    <div class="img2">
+      <a href=source.html><img src="images/door5.png"></a>
+
   </div>
 </body>
 </html>
